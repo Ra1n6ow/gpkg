@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ra1n6ow/gpkg/pkg/errorsx"
+	"github.com/ra1n6ow/gpkg/errorsx"
 )
 
 // Validator 是验证函数的类型，用于对绑定的数据结构进行验证.

@@ -10,8 +10,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/ra1n6ow/gpkg/pkg/store/logger/empty"
-	"github.com/ra1n6ow/gpkg/pkg/store/where"
+	"github.com/ra1n6ow/gpkg/store/logger/empty"
+	"github.com/ra1n6ow/gpkg/store/where"
 )
 
 // DBProvider defines an interface for providing a database connection.
