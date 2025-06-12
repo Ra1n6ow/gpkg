@@ -12,9 +12,6 @@
 // of the errcheck Analyzer from upstream (github.com/kisielk/errcheck).
 // Specifically, we pass in our own list of excludes.
 
-//go:build bazel
-// +build bazel
-
 package errcheck
 
 import (
@@ -25,7 +22,6 @@ import (
 
 var Analyzer = errcheck.Analyzer
 
-//go:embed errcheck_excludes.txt
 var excludesContent string
 
 func init() {

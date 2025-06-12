@@ -12,9 +12,6 @@
 // of the shadow Analyzer from upstream (golang.org/x/tools).
 // We allow shadows of a few variable names, like err.
 
-//go:build bazel
-// +build bazel
-
 package shadow
 
 import (
